@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>卡卡底家</title>
+<!-- Bootstrap <link rel="stylesheet" href="css/font-awesome.min.css">-->
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+<link href="css/scrolling-nav.css" rel="stylesheet" type="text/css">
+<link href="fontawesome-free-5.7.2-web/css/all.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css" rel="stylesheet">
+<link href="css/my.css" rel="stylesheet" type="text/css">
+<style>
+.logo {
+    height: 50px;
+}
+body{
+	background-image: url("images/background.png")
+}
+</style>
+
+</head>
+<body id="page-top" style="padding-top: 70px">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <div class="container"> <a class="navbar-brand" href="#"><img class="logo" src="images/logo.png"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="about.html">
+          <h6><b>關於我</b></h6>
+          </a> </li>
+        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="highlights.html">
+          <h6><b>精華剪輯</b></h6>
+          </a> </li>
+        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="interview.html">
+          <h6><b>訪談紀錄</b></h6>
+          </a> </li>
+        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="ktvsing.html">
+          <h6><b>歌唱節目</b></h6>
+          </a> </li>
+        <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="specialeffect.html">
+          <h6><b>特效後製</b></h6>
+          </a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="container">
+  <!-- 以下是一個 slider -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!-- 以下是 slider 下方的指示器 ************************************************ -->
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    </ol>
+	  
+    <!-- 以下是 slider 中的影像圖片區 -->
+    <div style="background-color: rgba(0,0,0,0.40)">
+	  <div class="carousel-inner">
+		<div class="carousel-item active">
+		<div class="carousel-caption d-none d-md-block">
+		<div class="textBox">
+          <h3>精華剪輯</h3>
+          <h5>木曜4超玩直播精華</h5>
+		  <a href="highlights.html">
+		  <button type="button" class="col-md-2 btn btn-info"><b>來去</b></button>
+		  </a>		
+		</div>
+		</div>
+        <video class="d-block w-100" src="videos/直播精華2.mp4" alt="First slide" autoplay loop muted></video>
+        </div>
+		
+        <div class="carousel-item">
+		<div class="carousel-caption d-none d-md-block">
+		<div class="textBox">
+          <h3>訪談紀錄</h3>
+          <h5>澎湖石滬修造技術職人訪談</h5>
+		  <a href="interview.html">
+		  <button type="button" class="col-md-2 btn btn-info"><b>來去</b></button>
+		  </a>		</div>
+		</div>
+        <video class="d-block w-100" src="videos/訪談紀錄2.mp4" alt="Second slide" autoplay loop muted></video>
+        </div>
+		
+        <div class="carousel-item">
+		<div class="carousel-caption d-none d-md-block">
+		<div class="textBox">
+          <h3>歌唱節目</h3>
+          <h5>地方賣藥節目KTV伴唱帶</h5>
+		  <a href="ktvsing.html">
+		  <button type="button" class="col-md-2 btn btn-info"><b>來去</b></button>
+		  </a>		</div>
+		</div>
+        <video class="d-block w-100" src="videos/歌唱節目2.mp4" alt="Third slide" autoplay loop muted></video>
+        </div>
+			
+	    <div class="carousel-item">
+		<div class="carousel-caption d-none d-md-block">
+		<div class="textBox">
+          <h3>特效後製</h3>
+          <h5>馬保國亂入漫威電影</h5>
+		  <a href="specialeffect.html">
+		  <button type="button" class="col-md-2 btn btn-info"><b>來去</b></button>
+		  </a>		</div>
+		</div>
+        <video class="d-block w-100" src="videos/特效後製2.mp4" alt="Fourth slide" autoplay loop muted></video>
+        </div>
+    </div>
+	</div>  
+    <!-- 以下是 slider 左右方向的控制區 -->
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    
+  </div>
+</header>
+	
+<div class="site-footer">
+
+      <div class="col-md-12 col-sm-12"> <span style="text-align: right;">Copyright © 2021 Kaka. All rights reserved.</span> </div>
+      <!-- /.col-md-6 --> 
+
+</div>
+<!-- /.site-footer --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.2.1.min.js"></script> 
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.0.0.js"></script> 
+<script src="js/jquery.easing.min.js"></script> 
+<script src="js/freelancer.min.js"></script>
+</body>
+</html>
