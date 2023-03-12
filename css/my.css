@@ -1,0 +1,88 @@
+@media screen and (min-width:769px) and (max-width:1200px){
+	.pic img{
+		margin: 0% 10%;
+	}
+	.intro0 {
+		margin: 0% 26%;
+	}
+	.intro1 {
+		margin: 0% 22%;
+	}
+	.intro2 {
+		margin: 0% 22%;
+	}
+	.vid1 {
+		margin: 0% 13.5%;
+	}
+	.vid2 {
+		margin: 0% 13.5%;
+	}
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+	.textBox {
+		padding-top: 3%;
+		padding-bottom: 3%;
+	}
+	.textBox h3{
+		font-size: 1.2rem;
+	}
+	.textBox h5{
+		font-size: 1rem;
+	}
+	.textBox button {
+		font-size: 0.5rem;
+	}
+	.pic img {
+		width: 100%;
+		margin: 0% 0%;
+	}
+	.intro0 {
+		margin: 0% 18%;
+	}
+	.intro1 {
+		margin: 0% 12%;
+	}
+	.intro2 {
+		margin: 0% 12%;
+	}
+	.vid1 {
+		margin: 0% 1.7%;
+	}
+	.vid2 {
+		margin: 0% 1.7%;
+	}
+}
+
+@media screen and (max-width:480px){
+	.intro0 {
+		font-size: 0.5rem;
+	}
+	.intro0 h3 {
+		font-size: 1.2rem;
+	}
+	.intro0 h5 {
+		font-size: 0.9rem;
+	}
+	.pic img {
+		width: 100%;
+	}
+	.vid1 img{
+		width: 100%;
+	}
+	.vid2 img{
+		width: 100%;
+	}
+	.vid1 button {
+		font-size: 1rem;
+	}
+	.vid2 button {
+		font-size: 1rem;
+	}
+	.info-content {
+		transform: translateY(-25%);
+	}
+	
+}
+
+
